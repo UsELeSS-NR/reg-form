@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <div class="margin">
+                <div class="nav">
+                    <h1>Registration Receipt</h1>
+                </div>
+                <div class="hero">
+                    <section>
+                        <!-- <p style="text-align:center; color: green;">Form Submitted Successfully</p> -->
+                        <h3>Name :
+                            &nbsp;<h2 id="fname_res"></h2>
+                            &nbsp;<h2 id="mname_res"></h2>
+                            &nbsp;<h2 id="lname_res"></h2>
+                        </h3>                                                
+                    </section>
+                    <section>
+                        <h3>D O B :
+                            &nbsp;<h2 id="dob_res"></h2>
+                            
+                        </h3> 
+                        <h3 style="margin-left: 46%;">Gender :
+                            &nbsp;<h2  id="gender_res"></h2>
+                            
+                        </h3> 
+                    </section>
+                    <section>
+                        <h3>Address :
+                            &nbsp;<h2 style="text-align: justify;" id="add1_res"></h2><br>
+                            &nbsp;<h2 style="text-align: justify;" id="add2_res"></h2>
+                        </h3>                     
+                    </section>
+                    <section>
+                        <h3 >City :
+                            &nbsp;<h2 style="text-align: justify;" id="city_res"></h2>
+                            
+                        </h3>  
+                        <h3 style="margin-left: 50%;">State :
+                            &nbsp;<h2 style="text-align: justify;" id="state_res"></h2>
+                            
+                        </h3>                    
+                    </section>
+                    <section>
+                        <h3>Zip/Postal Code :
+                            &nbsp;<h2 style="text-align: justify;" id="code_res"></h2>
+                            
+                        </h3>                     
+                    </section>
+                    <section>
+                        <h3>Gmail :
+                            &nbsp;<h2 style="text-align: justify;" id="mail_res"></h2>
+                           
+                        </h3>    
+                        <h3 style="margin-left: 30%;">Contact No :
+                            &nbsp;<h2 style="text-align: justify;" id="contact_res"></h2>
+                            
+                        </h3>                                    
+                    </section>
+                    <section>
+                        <h3>Additional Comments :
+                            &nbsp;<h2 style="text-align: justify;" id="comment_res"></h2>
+                            
+                        </h3>                     
+                    </section>
+                    <div class="clearfix"></div>
+                    <section >
+                        <button id="btn_print" class="btn1" onclick="window.print()" >Print</button>
+                    </section>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

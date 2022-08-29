@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+body {
+    font-family: lato, sans-serif;
+    background-color: gray;
+
+
+}
+
+.main {
+    width: 80%;
+    background-color: antiquewhite;
+    box-shadow: 0px 3px 8px black;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.margin {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: bisque;
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    z-index: 999;
+    box-shadow: 1px 2px 5px gray;
+
+}
+
+h1 {
+    font-size: 52px;
+
+}
+
+h2 {
+    display: inline;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    display: inline;
+
+
+}
+
+span {
+    color: gray;
+}
+
+input {
+    font-size: 25px;
+    font-weight: lighter;
+    height: 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+section {
+    margin-bottom: 20px;
+
+}
+
+
+.width_half {
+    width: 50%;
+}
+
+.width_full {
+    width: 100%;
+}
+
+
+
+.border {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-top: 3px solid darkgreen;
+
+}
+
+.hero {
+    padding: 20px;
+
+    width: 100%;
+
+}
+
+.center {
+    display: flex;
+
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+.position {
+    color: gray;
+}
+
+#f_name,
+#m_name,
+#l_name {
+
+    max-width: 495px;
+    width: 100%;
+
+}
+
+
+
+
+
+.bday {
+    font-size: 20px;
+
+    font-weight: lighter;
+    width: 100%;
+}
+
+#gender {
+    height: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    width: 100%;
+
+}
+
+#comment {
+    height: 164px;
+    font-size: 25px;
+    font-weight: lighter;
+    
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.btn1 {
+    padding: 10px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    transition: .4s;
+    font-weight: bolder;
+    color: rgb(239, 245, 255);
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+.btn2 {
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    transition: .4s;
+    font-weight: bolder;
+    color: rgb(239, 245, 255);
+    font-size: 15px;
+    text-decoration: none;
+    float: right;
+}
+
+.btn3 {
+    padding: 10px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    transition: .4s;
+    font-weight: bolder;
+    color: rgb(239, 245, 255);
+    font-size: 15px;
+    text-decoration: none;
+    
+    
+}
+.btn1:hover,
+.btn2:hover 
+.btn3:hover {
+
+    background-color: rgb(0, 125, 141);
+    box-shadow: 5px 5px 5px gray;
+    scale: 1.1;
+
+
+}
