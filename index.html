@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraiton Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jq.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="margin">
+            <form action="receipt.html">
+                <div class="nav">
+                    <h1>Registration Form</h1>
+                    <h3>Fill out the form carefully for registration</h3>
+                    <hr class="border">
+                    </hr>
+                </div>
+                <div class="hero">
+    
+                    <section>
+                        <h3>Name</h3>
+                        <p class="center">
+                            <span style="width: 33%;"><input pattern="[A-Za-z]{3}" type="text" id="f_name" required autofocus>
+                                <br>
+                                <span style="color: red;" id="alrt1"></span>
+                                <span style="display: flex;" class="position">First Name</span>
+                            </span>
+                            &nbsp;&nbsp;
+                            <span style="width: 33%;"><input pattern="[A-Za-z]{3}" type="text" id="m_name" required autofocus>
+                                <br>
+                                <span style="color: red;" id="alrt2"></span>
+                                <span style="display: flex;" class="position">Middle Name</span>
+                            </span>
+                            &nbsp;&nbsp;
+                            <span style="width: 33%;"><input pattern="[A-Za-z]{3}" type="text" id="l_name" required autofocus>
+                                <br>
+                                <span style="color: red;" id="alrt3"></span>
+                                <span style="display: flex;" class="position">Last Name</span>
+                            </span>
+                        <p>
+                    </section>
+    
+                    <section class="center">
+                        <div class="width_half">
+                            <h3>Birth Date</h3>
+                            <input type="date" class="bday" id="dob" placeholder="mm/dd/yyyy" name="birthday" required>
+                            <span style="color: red;" id="alrt4"></span>
+                        </div>
+                        <div class="genderdiv">
+                            <h3>Gender</h3>
+                            <select name="gender" id="gender">
+                                <option value="">Select Your Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+    
+                            </select>
+                            <span style="color: red;" id="alrt5"></span>
+                            <!-- <input type="radio" name="gender" class="gender" id="male" required>
+                            <label>Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                            <input type="radio" name="gender" class="gender" id="female" required>
+                            <label>Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                            <input type="radio" name="gender" class="gender" id="other" required>
+                            <label>Other</label> -->
+                        </div>
+    
+                    </section>
+    
+                    <section class="address">
+                        <div class="width_full">
+                            <h3>Address</h3>
+                            <input type="text" id="add1" class="width_full">
+                            <br>
+                            <span style="color: red;" id="alrt6"></span>
+                            <span style="display: flex;">Street Address</span><br>
+                            
+                            <input type="text" id="add2" class="width_full">
+                            <br>
+                            <span style="color: red;" id="alrt7"></span>
+                            <span style="display: flex;">Street Address Line 2</span>
+                        </div>
+    
+    
+                    </section>
+                    <section>
+                        <div class="width_full, center">
+                            <div class="width_half">
+                                <input type="text" id="city" class="width_full">
+                                <br>
+                                <span style="color: red;" id="alrt8"></span>
+                                <span style="display: flex;">City</span>
+                            </div>
+                            &nbsp;&nbsp;&nbsp;
+                            <div class="width_half">
+                                <input type="text" id="state" class="width_full">
+                                <br>
+                                <span style="color: red;" id="alrt9"></span>
+                                <span style="display: flex;">State</span>
+                            </div>
+    
+                        </div>
+    
+                    </section>
+                    <section>
+                        <div class="width_full">
+                            <div>
+                                <input type="number" id="code" class="width_full">
+                                <br>
+                                <span style="color: red;" id="alrt10"></span>
+                                <span style="display: flex;">Zip/Postal Code</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="width_full, center" >
+                            <div class="width_half">
+                                <h3>Gmail/Email</h3>
+                                <input type="email" id="mail" class="width_full">
+                                <br>
+                                <span style="color: red;" id="alrt11"></span>
+                                <span style="display: flex;">example@gmail.com</span>
+                            </div>
+                            &nbsp;&nbsp;&nbsp;
+                            <div class="width_half">
+                                <h3>Contact No</h3>
+                                <input type="number" length="1" id="contact" class="width_full">
+                                <span style="color: red;" id="alrt12"></span>
+                            </div>
+    
+                        </div>
+    
+                    </section>
+                    <section>
+                        <div class="width_full">
+                            <h3>Additional Comments</h3>
+                                <textarea  type="text" id="comment" class="width_full"></textarea>
+                        </div>
+                    </section>
+                    <div class="clearfix">
+                
+                    </div>
+                    <section class="btns">
+                        <a id="submit" class="btn1" href="#">Submit</a> 
+                        <button id="clear" type="reset"class="btn2" href="#">Clear Fields</button>
+                    </section>
+    
+                </div>
+            </form>
+            
+        </div>
+        
+
+
+    </div>
+
+
+</body>
+
+</html>
